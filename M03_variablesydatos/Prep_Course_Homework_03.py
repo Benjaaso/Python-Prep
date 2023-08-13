@@ -5,7 +5,9 @@
 
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
-# In[7]:
+# In[7]: 
+pico = 1
+print(pico)
 
 
 
@@ -13,15 +15,14 @@
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
-
-
+tipo = type(8.5)
+print(tipo)
 
 
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
-
+print(type(pico))
 
 
 
@@ -29,6 +30,7 @@
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
+Thebest = 'benjaso'
 
 
 
@@ -36,6 +38,7 @@
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
+variable = 6j
 
 
 
@@ -44,7 +47,7 @@
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
 # In[4]:
-
+print(type(variable))
 
 
 
@@ -60,6 +63,8 @@ pi = 3.1416
 # 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 
 # In[3]:
+comillas = 'True'
+sincomillas = True
 
 
 
@@ -68,7 +73,7 @@ pi = 3.1416
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
-
+print(type(comillas),type(sincomillas))
 
 
 
@@ -76,7 +81,8 @@ pi = 3.1416
 # 10) Asignar a una variable, la suma de un número entero y otro decimal
 
 # In[1]:
-
+x = 5+5.5
+print(x)
 
 
 
@@ -84,6 +90,9 @@ pi = 3.1416
 # 11) Realizar una operación de suma de números complejos
 
 # In[2]:
+twiter = 8j
+elon = 6j
+print(elon+twiter)
 
 
 
@@ -92,7 +101,7 @@ pi = 3.1416
 # 12) Realizar una operación de suma de un número real y otro complejo
 
 # In[4]:
-
+print(x+elon)
 
 
 
@@ -100,7 +109,7 @@ pi = 3.1416
 # 13) Realizar una operación de multiplicación
 
 # In[5]:
-
+print(x*pi)
 
 
 
@@ -108,14 +117,15 @@ pi = 3.1416
 # 14) Mostrar el resultado de elevar 2 a la octava potencia
 
 # In[6]:
-
+print(2**8)
 
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
-
+spacex = 27/4
+print(spacex)
 
 
 
@@ -123,7 +133,7 @@ pi = 3.1416
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
-
+print(27//4)
 
 
 
@@ -131,7 +141,7 @@ pi = 3.1416
 # 17) De la división de 27 entre 4 mostrar solamente el resto
 
 # In[1]:
-
+print(27%4)
 
 
 
@@ -139,7 +149,7 @@ pi = 3.1416
 # 18) Utilizando como operandos el número 4 y los resultados obtenidos en los puntos 16 y 17. Obtener 27 como resultado
 
 # In[2]:
-
+print(4*6+3)
 
 
 
@@ -147,7 +157,7 @@ pi = 3.1416
 # 19) Utilizar el operador "+" en una operación donde intervengan solo variables alfanuméricas
 
 # In[3]:
-
+print('8'+'5')
 
 
 
@@ -155,7 +165,7 @@ pi = 3.1416
 # 20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
 
 # In[4]:
-
+print('2'== 2)
 
 
 
@@ -163,7 +173,7 @@ pi = 3.1416
 # 21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
 
 # In[11]:
-
+print(int('2')== 2)
 
 
 
@@ -171,7 +181,7 @@ pi = 3.1416
 # 22) ¿Por qué arroja error el siguiente cambio de tipo de datos? a = float('3,8')
 
 # In[12]:
-
+#no deberia llevar coma.
 
 
 
@@ -179,7 +189,9 @@ pi = 3.1416
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido y que de como resultado 2.
 
 # In[15]:
-
+superloop = 3
+superloop -= 1
+print(superloop)
 
 
 
@@ -187,7 +199,7 @@ pi = 3.1416
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
 
 # In[29]:
-
+print(1<<2)
 
 
 
@@ -204,6 +216,6 @@ pi = 3.1416
 # 26) Realizar una operación válida entre valores de tipo entero y string
 
 # In[30]:
-
+print(2*'2')
 
 
